@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char caractere1 = 'A';
+    char caractere2 = '7';
+    char caractere3 = '#';
+
+    if (isalnum(caractere1)) {
+        printf("'%c' é alfanumérico.\n", caractere1);
+    } else {
+        printf("'%c' não é alfanumérico.\n", caractere1);
+    }
+
+    if (isalnum(caractere2)) {
+        printf("'%c' é alfanumérico.\n", caractere2);
+    } else {
+        printf("'%c' não é alfanumérico.\n", caractere2);
+    }
+
+    if (isalnum(caractere3)) {
+        printf("'%c' é alfanumérico.\n", caractere3);
+    } else {
+        printf("'%c' não é alfanumérico.\n", caractere3);
+    }
+
+    return 0;
+}

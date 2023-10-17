@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char caractere = 'k';
+
+    if (islower(caractere)) {
+        printf("'%c' não é uma letra maiúscula.\n", caractere);
+    } else {
+        printf("'%c'é uma letra maiúscula.\n", caractere);
+    }
+
+    return 0;
+}
